@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <FrameLayout
+            android:id="@+id/remote_video_view_container"
+            android:layout_width="414dp"
+            android:layout_height="730dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <FrameLayout
+                android:id="@+id/local_video_view_container"
+                android:layout_width="245dp"
+                android:layout_height="159dp"
+                android:layout_alignBottom="@+id/remote_video_view_container"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="#8BC34A" />
+        </FrameLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="@+id/remote_video_view_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/JoinButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#00FF0A"
+                    android:onClick="joinChannel"
+                    app:srcCompat="@android:drawable/ic_menu_call" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/LeaveButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/fab_margin"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#FB0000"
+                    android:onClick="leaveChannel"
+                    app:srcCompat="@android:drawable/ic_menu_call" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--            <Button-->
+    <!--                android:id="@+id/JoinButton"-->
+    <!--                android:layout_width="168dp"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_below="@+id/remote_video_view_container"-->
+    <!--                android:layout_alignStart="@id/remote_video_view_container"-->
+    <!--                android:onClick="joinChannel"-->
+    <!--                android:text="Join"-->
+    <!--                app:layout_constraintBottom_toBottomOf="@+id/remote_video_view_container"-->
+    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/LeaveButton"-->
+    <!--                android:layout_width="199dp"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_below="@+id/remote_video_view_container"-->
+    <!--                android:layout_alignEnd="@id/remote_video_view_container"-->
+    <!--                android:layout_toEndOf="@+id/JoinButton"-->
+    <!--                android:onClick="leaveChannel"-->
+    <!--                android:text="Leave"-->
+    <!--                app:layout_constraintBottom_toBottomOf="@+id/remote_video_view_container"-->
+    <!--                app:layout_constraintEnd_toStartOf="@+id/JoinButton"-->
+    <!--                app:layout_constraintStart_toStartOf="@+id/remote_video_view_container"-->
+    <!--                app:layout_constraintTop_toTopOf="parent" />-->

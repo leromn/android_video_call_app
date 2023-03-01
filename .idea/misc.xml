@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable/addCall_background.xml" value="0.231" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/drawable/addCall_foreground.xml" value="0.1035" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.2328125" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout-w936dp/activity_login.xml" value="0.165625" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_channel_creator.xml" value="0.22" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_home.xml" value="0.12356651376146789" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_login.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_main_drawer2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_profile_view_drawer.xml" value="0.10584518167456557" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/app_bar_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/app_bar_main_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/app_bar_profile_view_drawer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/container.xml" value="0.33" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/content_channel_creator.xml" value="0.67" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/content_home.xml" value="0.12" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/content_home2.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/content_main_drawer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/content_profile_view_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/fragment_first.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/fragment_gallery.xml" value="0.221025641025641" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/fragment_second.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/fragment_slideshow.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/nav_header_main_drawer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/layout/nav_header_profile_view_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/esru/AndroidStudioProjects/MyApplication10/app/src/main/res/menu/profile_view_drawer.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

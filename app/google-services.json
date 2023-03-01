@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551423129216",
+    "project_id": "jvuserdata",
+    "storage_bucket": "jvuserdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551423129216:android:bb74c71a3f8a69df719865",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551423129216-p41frj385atiirp572gene4o641e3id2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChVZb5OFHLTYvM5Qdsf4cxIDpCQX5VtdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551423129216-p41frj385atiirp572gene4o641e3id2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
